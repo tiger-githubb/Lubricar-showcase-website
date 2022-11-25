@@ -83,6 +83,7 @@
     top: 0;
     left: 0;
     background: var(--dark);
+
 }
 
 .nav-bar::after {
@@ -93,6 +94,7 @@
     bottom: 0;
     left: 0;
     background: #ffffff;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -103,11 +105,13 @@
     text-transform: uppercase;
     color: var(--light);
     outline: none;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary);
+    
 }
 
 @media (max-width: 991.98px) {
@@ -356,11 +360,12 @@
     border-right: none;
 }
 
-
-
-
 /* add */
 
 .text-align-center{
     text-align: center ;
+}
+
+body > div.container-fluid.p-0.mb-5{
+    margin-top: -55px;
 }
