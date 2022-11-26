@@ -1,0 +1,75 @@
+/*** Service ***/
+.service1-item .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.service1-item .service-text {
+    background: var(--light);
+    transition: .5s;
+}
+
+.service1-item:hover .service-text {
+    background: rgba(0, 0, 0, .7);
+}
+
+.service1-item * {
+    transition: .5;
+}
+
+.service1-item:hover * {
+    color: #FFFFFF;
+}
+
+.service1-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--dark);
+    background: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service1-item:hover .btn {
+    width: 140px;
+}
+
+
+
+/*** Service ***/
+.service2-item-top img {
+    transition: .5s;
+}
+
+.service2-item-top:hover img {
+    transform: scale(1.1);
+}
+
+.service2-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.service2-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: var(--primary);
+    border: 5px solid var(--light);
+    transition: .5s;
+}
+
+.service2-carousel .owl-dot.active {
+    background: var(--light);
+    border-color: var(--primary);
+}
