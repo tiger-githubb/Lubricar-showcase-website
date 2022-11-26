@@ -370,3 +370,30 @@
 body > div.container-fluid.p-0.mb-5{
     margin-top: -55px;
 }
+
+
+.vendor-carousel .owl-dots,
+.testimonial-carousel .owl-dots {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendor-carousel .owl-dot,
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: var(--secondary);
+    transition: .5s;
+}
+
+.vendor-carousel .owl-dot.active,
+.testimonial-carousel .owl-dot.active {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+}
