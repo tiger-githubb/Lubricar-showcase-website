@@ -398,6 +398,7 @@ body > div.container-fluid.p-0.mb-5{
     background: var(--primary);
 }
 
+
 /*** FAQs ***/
 .accordion .accordion-item {
     border: none;
@@ -421,4 +422,9 @@ body > div.container-fluid.p-0.mb-5{
 
 .accordion .accordion-body {
     padding: 15px 0 0 0;
+
 }
+
+.bg-banner {
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
+    background-attachment: fixed;
