@@ -94,10 +94,11 @@
                         <a href="index.html" class="nav-item nav-link ">Accueil</a>
 
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Services</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="depannage.html" class="dropdown-item">Dépannage</a>
-                                <a href="diagnostique_entretien.html" class="dropdown-item">Diagnostic & Entretien</a>
+                                <a href="diagnostique_entretien.html" class="dropdown-item active">Diagnostic &
+                                    Entretien</a>
                                 <a href="ajout_commodites.html" class="dropdown-item">Ajout de commodités</a>
                             </div>
                         </div>
@@ -105,9 +106,9 @@
                         <a href="support.html" class="nav-item nav-link">Support</a>
 
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Informations</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Informations</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="faq.html" class="dropdown-item active ">Foire aux questions</a>
+                                <a href="faq.html" class="dropdown-item ">Foire aux questions</a>
                                 <a href="about.html" class="dropdown-item">Qui sommes nous ?</a>
                                 <a href="ccm.html" class="dropdown-item">Comment ça marche</a>
                             </div>
@@ -126,12 +127,13 @@
         <div class="container-fluid page-header mb-5  p-0" style="background-image: url(img/carousel-bg-1.jpg);">
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown mt-5">Foire aux questions</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown mt-5">Diagnostique & entretien</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
                             <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Foire aux questions</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Diagnostique & entretien
+                            </li>
                         </ol>
                     </nav>
                 </div>
@@ -140,172 +142,187 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- FAQs Start -->
+    <!-- Diagnostic d’entretien  Start -->
+    <div class="container-xxl py-">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-grid justify-content-center  align-content-center">
+                    <h1 class="mb-4">Diagnostic d’entretien : le bilan de santé de votre
+                        voiture </h1>
+                    <p class="mb-4">Pour juger de l’état de votre véhicule et limiter le risque de panne, le garagiste
+                        doit connecter un appareil de diagnostic multimarque à celle-ci. Voyons comment cela fonctionne,
+                        quels sont les intérêts et à quel prix.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Diagnostic d’entretien   End -->
+
+    <!-- Diagnostic sécurité Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h4 class="pb-3">Questions fréquemment posées</h4>
+
+            <div class="row mx-0">
+                <div class="col-lg-6 px-0">
+                    <div class=" bg-secondary d-flex align-items-center justify-content-between"
+                        style="height: 350px;">
+                        <img class="img-fluid flex-shrink-0 ml-n5 w-50 mr-4" src="img/banner-left.png" alt="">
+                        <div class="text-right ">
+                            <p class="mb-4 px-3 text-align-center text-white">Nous examinons le système de freinage et de suspension qui sont les principales causes de contre-visite. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  px-0 ml-3">
+                    <div class="bg-dark d-flex align-items-center justify-content-between" style="height: 350px;">
+                        <div class="text-left">
+                            <p class="mb-4 px-3 text-align-center   text-white">À chaque étape de vie de votre véhicule, confiez aux experts de Lubricar le diagnostic complet de votre voiture</p>
+                        </div>
+                        <img class="img-fluid flex-shrink-0 mr-n5 w-50 ml-4" src="img/banner-right.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Quels services fournissez-vous ? 
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Nous fournissons les services suivants :
-                                    <ul>
-                                        <li>Dépannage</li>
-                                        <li>Diagnostique & entretien</li>
-                                        <li>Ajout de commodités </li>
-                                    </ul>
+
+            <div class="row g-5 mt-3">
+                <div class="col-lg-6">
+                    <h1 class="mb-4"> Diagnostic sécurité</h1>
+                    <p class="mb-4">De nombreux garagistes investissent dans un scanner OBD pour proposer des forfaits
+                        d’évaluation auto en dehors des périodes de révision. Le diagnostic sécurité en fait partie.
+                        Ce diagnostic se concentre sur les organes du véhicule les plus importants dont :
+                    </p>
+                    <div class="row g-4 mb-3 pb-3">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">01</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center">
+                                    <h6>les pneus qui fournissent la stabilité de la trajectoire</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Quelles sont les marques de véhicules que vous couvrez ? 
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Tous les marques de véhicules.
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">02</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6>le système de freinage, plaquette et disques qui assurent une bonne sécurité
+                                    </h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    A qui vos services sont destinés ?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Aux particuliers ainsi qu’au professionnel.
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">03</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6>les éléments d’éclairage, phares, veilleuses, etc, garantissent une bonne
+                                        visibilité</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Comment Commandez vos services ?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Via appel ou via l’application mobile. 
-                                    Cependant il est recommandé de commander le service via l’application mobile parce qu’elle offre beaucoup plus d’option afin que l’équipe dépannage puisse bien cerné le problème.
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">04</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6>les amortisseurs, indispensables à la tenue de route</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    L’application mobile est elle disponible sur toutes les plateformes ?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    L’application mobile est disponible sur Appstore et sur playstore.
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-6.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Diagnostic sécurité End -->
+
+    <!-- Diagnostic de pré-contrôle technique Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-7.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mb-4"> Diagnostic sécurité</h1>
+                    <p class="mb-4">Le contrôle technique doit se faire chaque année pour toutes les voitures en
+                        circulation. Il s’agit d’une inspection complète portant sur 133 points comme : les suspensions,
+                        la direction, le freinage et le système d'antipollution... En cas de défaillance dite
+                        « critique » sur les fonctions vitales du véhicule, ce dernier sera immobilisé. Les réparations
+                        devront être faites dans les 2 mois. La pré-visite est donc un service d’importance pour éviter
+                        tout désagrément lors du passage de la vérification officielle.
+                    </p>
+                    <p class="mb-4">Le diagnostic de pré-contrôle est un examen visant à préparer les véhicules à
+                        l’inspection obligatoire. Il réduit les contre-visites et la perte de temps en identifiant les
+                        réparations indispensables. Il est recommandé de prévoir cet examen anticipé au moins 3 mois
+                        avant la date de l’inspection.
+                    </p>
+
+                    <div class="row g-4 mb-3 pb-3">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">01</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center">
+                                    <h6>le compartiment moteur | les points de direction </h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    A combien vos services sont facturés ?
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Les services sont facturés en fonction des pannes...
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">02</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6> L’éclairage | la signalisation </h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
-                            <h2 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    Dans quel délai l’équipe de dépannage pourra arriver sur les lieux ?
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Le plus tôt possible après la commande.
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">03</span>
+                                </div>
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6> les pneus | l’échappement</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                            <h2 class="accordion-header" id="headingEight">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    Peut ont programmer un dépannage ?
-                                </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Oui, les dépannages sont programmés en fonction de l’urgence de la panne.
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                                    style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">04</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
-                            <h2 class="accordion-header" id="headingNine">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                    Est-ce que les pièces de rechange sont disponible à avec l’équipe de dépannage ?
-                                </button>
-                            </h2>
-                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Les pièces les plus essentielles sont disponibles dans le van de dépannage.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
-                            <h2 class="accordion-header" id="headingTen">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                    Est-ce que le service de dépannage est disponible partout au Mali ? 
-                                </button>
-                            </h2>
-                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Pour le moment ce service n’est disponible qu’a Bamako, courant les jours a venir nous seront représenté dans tous les autres grande ville du pays. 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
-                            <h2 class="accordion-header" id="headingTen">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                    Quels sont les horaires de d’intervention du service de dépannage ?
-                                </button>
-                            </h2>
-                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Le service est disponible 24/24
+                                <div class="ps-3 d-flex align-items-center ">
+                                    <h6> les plaques d’immatriculation | le klaxon</h6>
                                 </div>
                             </div>
                         </div>
@@ -314,7 +331,7 @@
             </div>
         </div>
     </div>
-    <!-- FAQs Start -->
+    <!-- Diagnostic de pré-contrôle technique End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -389,7 +406,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #D81324;
+    --primary: #ff5e00;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
@@ -102,7 +102,7 @@
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     color: var(--light);
     outline: none;
     
@@ -322,7 +322,7 @@
     color: #FFFFFF;
     font-size: 15px;
     font-weight: normal;
-    text-transform: capitalize;
+    text-transform: none;
     transition: .3s;
 }
 
@@ -427,4 +427,17 @@ body > div.container-fluid.p-0.mb-5{
 
 .bg-banner {
     background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
-    background-attachment: fixed;
+    background-attachment: fixed;}
+
+.tb {
+
+    font-weight: 500;
+}
+
+.img-smooth{
+    border-radius: 5px;
+}
+
+.footer .btn.btn-link::before {
+    display: none;
+}
