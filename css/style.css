@@ -1,4 +1,9 @@
 /********** Template CSS **********/
+
+
+body{
+    font-family: myriad,sans-serif !important;
+}
 :root {
     --primary: #FF6633;
     --secondary: #336699;
